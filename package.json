@@ -11,11 +11,11 @@
   "author": "Gabriel McCallin",
   "license": "ISC",
   "dependencies": {
-    "express": "^4.17.1"
+    "express": "^4.21.2"
   },
   "devDependencies": {
     "@types/jest": "^26.0.19",
     "jest": "^26.6.3",
-    "nodemon": "^2.0.6"
+    "nodemon": "^2.0.22"
   }
 }
