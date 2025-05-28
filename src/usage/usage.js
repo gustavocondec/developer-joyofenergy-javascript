@@ -5,6 +5,7 @@ const average = (readings) => {
     );
 };
 
+// Tiempo desde el primero al ultimo reading
 const timeElapsedInHours = (readings) => {
     readings.sort((a, b) => a.time - b.time);
     const seconds = readings[readings.length - 1].time - readings[0].time;
@@ -20,6 +21,7 @@ const usageCost = (readings, rate) => {
     return usage(readings) * rate;
 };
 
+// retorna [{"price-plan-0":10}, ...]
 const usageForAllPricePlans = (pricePlans, readings) => {
     return Object.entries(pricePlans).map(([key, value]) => {
         return {

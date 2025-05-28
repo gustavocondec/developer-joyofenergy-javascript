@@ -11,6 +11,11 @@ const generateSingle = () => {
     }));
 };
 
+/*
+return {
+    "smart-meter-1": [{time, reading}]
+}
+*/
 const generateAllMeters = () => {
     const readings = {};
 
@@ -23,6 +28,11 @@ const generateAllMeters = () => {
     return readings;
 };
 
+/*
+return {
+    "smart-meter-1": [{time, reading}]
+}
+*/
 const readingsData = generateAllMeters();
 
 module.exports = { readingsData };

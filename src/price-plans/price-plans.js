@@ -1,8 +1,11 @@
 const pricePlanNames = {
+    // DR EVILS
     PRICEPLAN0: "price-plan-0",
+    // POWER FOR EVERY
     PRICEPLAN1: "price-plan-1",
+    // THE GREEN ECO
     PRICEPLAN2: "price-plan-2",
-};
+}
 
 const supplierNames = {
     DR_EVILS_DARK_ENERGY_ENERGY_SUPPLIER: "Dr Evil's Dark Energy",
